@@ -1,3 +1,11 @@
 h1 {
   font-size: 40px;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(cheri-rus-by-alince.otf);
+}
+
+div {
+  font-family: myFirstFont;
+}
