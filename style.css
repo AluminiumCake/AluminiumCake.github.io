@@ -1,10 +1,17 @@
 body {
   font-family: calibri;
-  text-align: center;
+  background-color: #fdfaf6; /* очень светлый бежевый общий фон */
   margin: 0;
   padding: 0;
-  background-color: #fff;
-  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto; /* центрирование */
+  padding: 30px;
+  background-color: #f9f2ec; /* пастельный светло-коричневый */
+  border-radius: 12px; /* скругленные углы */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* лёгкая тень */
 }
 
 header, footer {
